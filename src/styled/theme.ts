@@ -48,7 +48,7 @@ const theme: Theme = {
     lightGray: '#b6b8ba',
     normalGray: '#787d86',
     gray: '#777',
-    blue: '#00bdb8',
+    blue: '#0080FF',
     trendingTitle: '#969aa2',
     trendingKeyword: '#555',
     dropboxOption: '#52565d',

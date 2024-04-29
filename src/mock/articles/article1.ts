@@ -1,13 +1,13 @@
 import { ArticleProps } from '../../@types/article';
 
 export const article1: ArticleProps = {
-  title: 'What Is a Pandemic? - WebMD',
+  title: 'Rank#1 - 어제 올라왔다는 SM 블라인드 글',
   id: 1,
-  host: 'https://www.webmd.com',
-  url: 'https://www.webmd.com/cold-and-flu/features/what-is-pandemic',
+  host: '더쿠',
+  url: 'https://theqoo.net/square/3176807202',
   highlight:
-    '"A pandemic is basically a global epidemic -- an epidemic that spreads to more than one continent," says Dan Epstein, a spokesman for the Pan American Health Organization, a regional office of the World Health Organization',
+    '직원도 아티도 다 버리는 구나',
   description:
-    "There are two main features of an influenza pandemic. First, the virus is a new strain that has never infected people before. Second, it's on a global scale.",
+    "블라인드 글 '직원도 아티도 다 버리는 구나'를 캡처한 글",
   date: 'May 22, 2021',
 };

@@ -1,5 +1,6 @@
 import { PageTitle } from '../../components/PageTitle';
 import {
+  FILTERING_SNS,
   FOR_YOU,
   FOR_YOU_PAGE_SUBTITLE,
   FOR_YOU_TITLE_DROPBOX,
@@ -8,9 +9,12 @@ import {
 import { PageSubtitle } from '../../components/PageSubtitle';
 import styled from 'styled-components';
 import { Article } from '../../containers/Article';
-import { article1 } from '../../mock/articles/article1';
-import { article2 } from '../../mock/articles/article2';
+// import { article1 } from '../../mock/articles/article1';
+// import { article2 } from '../../mock/articles/article2';
+// import { article3 } from '../../mock/articles/article3';
+import { articles } from '../../mock/articles/articles';
 import { TrendingKeywords } from '../../components/TrendingKeywords';
+import { FilteringSNS } from "../../components/FilteringSNS"
 import { TrendingPages } from '../../components/TrendingPages';
 import { Dropbox } from '../../components/Dropbox';
 import signalJSON from '../../images/lottie/signal';
@@ -64,7 +68,7 @@ export const Home = () => {
           />
         </TopWrapper>
         <ArticleWrapper>
-          {[article1, article2, article1, article2, article1].map(
+          {articles.map(
             (article, index) => (
               <Article
                 key={`${article.title}-${index}`}
@@ -81,6 +85,7 @@ export const Home = () => {
       </ContentWrapper>
       <RightWrapper>
         <TrendingKeywords />
+        <FilteringSNS />
         <TrendingPages />
       </RightWrapper>
     </Container>

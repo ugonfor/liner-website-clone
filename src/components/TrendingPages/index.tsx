@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { TRENDING_PAGES } from '../../constants';
-import { trendingPage1 } from '../../mock/articles/trendingPage1';
+import { trendingPages } from '../../mock/articles/trendingPages';
 
 const Container = styled.div`
   margin-top: 16px;
@@ -78,8 +78,8 @@ export const TrendingPages = () => {
     <Container>
       <Title>{TRENDING_PAGES}</Title>
       <PagesWrapper>
-        {[1, 2, 3, 4, 5].map((page) => {
-          const { title, hashtags, url } = trendingPage1;
+        {[1,2,3,4,5].map((page) => {
+          const { title, hashtags, url } = trendingPages[page - 1];
 
           return (
             <PageWrapper key={page}>

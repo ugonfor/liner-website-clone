@@ -1,15 +1,13 @@
 import { ArticleProps } from '../../@types/article';
 
 export const article2: ArticleProps = {
-  title: '8 Signs and Symptoms of Vitamin D Deficiency - Healthline',
+  title: 'Rank#7 - 샤이니 민호 폭로한다는 블라인드글',
   id: 2,
-  host: 'https://www.healthline.com',
-  url: 'https://www.webmd.com/cold-and-flu/features/what-is-pandemic',
+  host: '인스티즈',
+  url: 'https://www.instiz.net/pt/7522289',
   highlight:
-    "It's also found in certain foods such as fatty fish and fortified dairy products, though it's very difficult to get enough from diet alone",
+    '샤이니 민호 폭로한다',
   description:
-    "23 July 2018 — It's also found in certain foods such as fatty fish and fortified dairy products, though it's very difficult to get enough from diet alone. The recommended daily intake (RDI) is usually around 400–800 IU, but many experts say you should get even more than that. Vitamin D deficiency is very common.",
-  thumbnailURL:
-    'https://www.goodrx.com/blog/wp-content/uploads/2018/11/pills-from-bottle-goodrx-1024x576.png',
+    "블라인드 글 '샤이니 민호 폭로한다'를 캡처한 글, 긍정적인 내용이다.",
   date: 'May 22, 2021',
 };

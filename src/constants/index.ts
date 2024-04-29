@@ -1,13 +1,13 @@
 import { MenuListProps } from '../@types/menu';
 
-export const FOR_YOU = 'For You' as const;
-export const MY_HIGHLIGHTS = 'My Highlights' as const;
-export const MORE = 'More' as const;
+export const FOR_YOU = '오늘의 소식' as const;
+export const MY_HIGHLIGHTS = '클리핑' as const;
+export const MORE = '더보기' as const;
 export const FILTER = 'Filter' as const;
 export const TAGS = 'Tags' as const;
 export const COLOR_FILTER = 'Color Filter' as const;
 export const PAGE_TYPE = 'Page Type' as const;
-export const SEARCHBAR_PLACE_HOLDER = 'Search on LINER' as const;
+export const SEARCHBAR_PLACE_HOLDER = 'Search SNS contents with DeepSocial' as const;
 export const SEARCH_TAGS_PLACE_HOLDER = 'Search tags' as const;
 export const SEARCH_MY_HIGHLIGHTS_PLACE_HOLDER =
   'Search my highlights' as const;
@@ -22,13 +22,13 @@ export const LeftMenuList: MenuListProps[] = [
   { name: MORE, to: '/more' },
 ];
 
-export const FOR_YOU_PAGE_SUBTITLE = 'Picked by LINER, just for you' as const;
+export const FOR_YOU_PAGE_SUBTITLE = '중요한 순서대로 글을 확인하세요!' as const;
 export const FOR_YOU_TITLE_DROPBOX = {
   title: 'Languages',
   description: 'Select for feed',
   options: [
     { optionName: 'English', isSelected: true },
-    { optionName: '한국어', isSelected: false },
+    { optionName: '한국어', isSelected: true },
     { optionName: '简体字', isSelected: false },
     { optionName: '繁體字', isSelected: false },
     { optionName: '日本語', isSelected: false },
@@ -42,8 +42,9 @@ export const DUMMY_COPY_URL =
   'https://www.webmd.com/cold-and-flu/features/what-is-pandemic' as const;
 export const COPY = 'COPY' as const;
 
-export const TRENDING_KEYWORDS = 'Trending Keywords' as const;
-export const TRENDING_PAGES = 'Trending Pages' as const;
+export const TRENDING_KEYWORDS = 'Filtering Keywords' as const;
+export const FILTERING_SNS = 'Filtering SNS' as const;
+export const TRENDING_PAGES = 'New Pages' as const;
 
 export const MORE_PAGES_LIKE_THIS = 'More pages like this' as const;
 export const FEWER_PAGES_LIKE_THIS = 'Fewer pages like this' as const;
